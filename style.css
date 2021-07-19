@@ -1,0 +1,424 @@
+body {
+  color: white;
+  margin: 0;
+  background-color: black;
+  font-family: "Hiragino Mincho Pro",serif;
+}
+
+body img {
+  width: 100%;
+}
+
+header {
+  background-image: url(./abc/FSLX5022.JPG);
+  background-size: cover;
+  height: 674px;
+}
+
+header .button_container {
+  padding-top: 40px;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+
+header .button_container .hn-btn {
+  margin-top: 0px;
+  padding-top: 0;
+  margin-left: auto;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  border: none;
+  width: 80px;
+  font: inherit;
+  outline: none;
+  position: fixed;
+  right: 60px;
+  height: 30px;
+}
+
+header .button_container .hn-btn.-action span {
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+header .button_container .hn-btn.-action span:first-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  z-index: 4;
+}
+
+header .button_container .hn-btn.-action span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+header .button_container .hn-btn.-action span:last-child {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+header .button_container .hn-btn span {
+  background-color: white;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  display: block;
+  z-index: 10;
+  top: 30px;
+}
+
+header .button_container .hn-btn span:first-child {
+  top: 0;
+}
+
+header .button_container .hn-btn span:nth-child(2) {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+header .button_container .hn-btn span :last-child {
+  bottom: auto;
+}
+
+header .overlay-menu ul {
+  visibility: hidden;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding-left: 0;
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+header .overlay-menu ul.-action {
+  visibility: visible;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+header .overlay-menu ul li {
+  list-style: none;
+  font-size: 80px;
+  text-align: center;
+}
+
+header .overlay-menu ul li:nth-child(n+2) {
+  margin-top: 100px;
+}
+
+header .overlay-menu ul li a {
+  margin: auto;
+  text-decoration: none;
+  color: white;
+  display: inline;
+  text-align: center;
+}
+
+header .my_introduction .myname {
+  font-size: 80px;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  margin-top: 0;
+}
+
+header .my_introduction .worker_type {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.profile_section {
+  background-image: url(abc/kaito.JPG);
+  background-size: cover;
+  height: 2244px;
+  margin-bottom: 40px;
+}
+
+.profile_section .portfolio {
+  padding-top: 40px;
+}
+
+.profile_section .portfolio p {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding-top: 0;
+  margin-top: 0;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  width: 400px;
+  font-size: 60px;
+}
+
+.profile_section .profile_imag {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.profile_section .profile_imag img {
+  border-radius: 720px;
+  height: 380px;
+  width: 380px;
+}
+
+.profile_section .sub_title {
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  width: 400px;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.profile_section .introduction_text {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.profile_section .introduction_text p {
+  background-color: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  font-size: 25px;
+}
+
+.profile_section .introduction_text {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.profile_section .introduction_text p {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.service_section {
+  padding-bottom: 100px;
+}
+
+.service_section .portfolio_title {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+.service_section .animated ul {
+  padding-left: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service_section .animated ul li {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  opacity: 0.9;
+  background-color: white;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.service_section .animated ul li:nth-child(n+2) {
+  margin-left: 25px;
+}
+
+.service_section .animated ul li .service_item {
+  padding-top: 28px;
+}
+
+.service_section .animated ul li .service_item .service_image {
+  text-align: center;
+}
+
+.service_section .animated ul li .service_item .service_image img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5044px;
+}
+
+.service_section .animated ul li .service_item .service_content {
+  font-size: 25px;
+  color: #000;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.portfolio_section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(abc/It1.jpg);
+  background-size: cover;
+  height: 750px;
+}
+
+.portfolio_section .portfolio_title {
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-size: 60px;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 500px;
+}
+
+.portfolio_section .portfolio_title .glyphicon p {
+  margin-top: 0;
+}
+
+.portfolio_section .animated a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio_section .animated .portfolio {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 1000px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.portfolio_section .animated .portfolio img {
+  margin: 0 auto;
+  height: 250px;
+  width: 500px;
+}
+
+.portfolio_section .animated .portfolio .caption p {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+footer .portfolio_title {
+  text-align: center;
+  font-size: 60px;
+}
+
+footer .portfolio_title span .contactt_text ul li a {
+  color: white;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+footer .contact-wrapper .form-horizontal .form-group .col-sm-12 .form-control {
+  border: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+footer .contact-wrapper .form-horizontal textarea {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+footer .contact-wrapper .form-horizontal .btn {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  background-color: brown;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.55);
+          box-shadow: rgba(0, 0, 0, 0.55);
+  width: 300px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+footer .contact-wrapper .form-horizontal .btn .alt-send-button {
+  font-size: 30px;
+}
+
+footer .direct-contact-container .contact-list li {
+  text-align: center;
+  list-style: none;
+  margin-top: 35px;
+  text-decoration: none;
+  color: white;
+}
+
+footer .direct-contact-container .contact-list li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+footer .direct-contact-container .social-media-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .direct-contact-container .social-media-list li {
+  text-align: center;
+  list-style: none;
+  margin-left: 30px;
+}
+
+footer .direct-contact-container .social-media-list li a {
+  text-decoration: none;
+}
+
+footer .direct-contact-container .social-media-list li a .far {
+  color: white;
+  font-size: 3.3em;
+}
+
+footer .direct-contact-container .social-media-list li .fa-twitter {
+  font-size: 5em;
+  color: #1da1f2;
+}
+
+footer .direct-contact-container .social-media-list li .fa-instagram {
+  color: #e1306c;
+  font-size: 5em;
+}
+
+footer .copyright {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer .sita {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */
