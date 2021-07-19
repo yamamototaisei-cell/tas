@@ -1,0 +1,316 @@
+body {
+    padding-top: 0;
+    color: white;
+    margin: 0;
+    background-color: black;
+    font-family: "Hiragino Mincho Pro",serif;
+  }
+  
+  body img {
+    width: 100%;
+  }
+  
+  header {
+    background-image: url(./abc/FSLX5022.JPG);
+    background-size: cover;
+    height: 300px;
+  }
+  
+  header .button_container {
+    padding-top: 10px;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+  }
+  
+  header .button_container .hn-btn {
+    margin-top: 0px;
+    padding-top: 0;
+    margin-left: auto;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: transparent;
+    border: none;
+    width: 40px;
+    font: inherit;
+    outline: none;
+    position: fixed;
+    right: 10px;
+    height: 30px;
+  }
+  
+  header .button_container .hn-btn.-action span {
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  }
+  
+  header .button_container .hn-btn.-action span:first-child {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 4;
+  }
+  
+  header .button_container .hn-btn.-action span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  header .button_container .hn-btn.-action span:last-child {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 0;
+    top: 0;
+    margin: auto;
+  }
+  
+  header .button_container .hn-btn span {
+    background-color: white;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    z-index: 10;
+    top: 30px;
+  }
+  
+  header .button_container .hn-btn span:first-child {
+    top: 0;
+  }
+  
+  header .button_container .hn-btn span:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  header .button_container .hn-btn span :last-child {
+    bottom: auto;
+  }
+  
+  header .overlay-menu {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  header .overlay-menu ul {
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-left: 0;
+    width: 100%;
+    top: 0;
+    margin-top: 0;
+  }
+  
+  header .overlay-menu ul.-action {
+    visibility: visible;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  }
+  
+  header .overlay-menu ul li {
+    padding-left: 0;
+    text-align: center;
+    font-size: 30px;
+    list-style: none;
+  }
+  
+  header .overlay-menu ul li:first-child {
+    padding-top: 30px;
+  }
+  
+  header .overlay-menu ul li:nth-child(n+2) {
+    margin-top: 80px;
+  }
+  
+  header .overlay-menu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header .my_introduction .myname {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 90px;
+  }
+  
+  header .my_introduction .worker_type {
+    text-align: center;
+  }
+  
+  .profile_section {
+    background-image: url(abc/たいあせい0.jpg);
+    background-size: cover;
+    height: 1404px;
+  }
+  
+  .profile_section .portfolio p {
+    margin-top: 0;
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  .profile_section .profile_imag img {
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 100033px;
+  }
+  
+  .profile_section .sub_title {
+    text-align: center;
+  }
+  
+  .profile_section .introduction_text {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .profile_section .introduction_text p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .service_section {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .service_section .portfolio_title {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .service_section .animated ul {
+    padding-left: 0;
+  }
+  
+  .service_section .animated ul li {
+    list-style: none;
+  }
+  
+  .service_section .animated ul li:nth-child(n+2) {
+    margin-top: 70px;
+  }
+  
+  .service_section .animated ul li .service_item .service_image img {
+    border-radius: 5px;
+  }
+  
+  .portfolio_section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .portfolio_section .portfolio_title {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .portfolio_section .animated a {
+    text-decoration: none;
+    color: white;
+  }
+  footer{
+    background-color: rgba(0, 0, 0, 1);
+    background-image: url(abc/1626684539465.jpg);
+    background-size: cover;
+    height: 500px;
+  }
+  
+  footer h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  footer .portfolio_title {
+    text-align: center;
+  }
+  
+  footer .direct-contact-container .contact-list {
+ 
+    background-size: cover;
+    padding-left: 0;
+  }
+  
+  footer .direct-contact-container .contact-list li {
+    text-align: center;
+    list-style: none;
+    margin-top: 35px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer .direct-contact-container .contact-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  footer .direct-contact-container .contact-list li .mail {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  footer .direct-contact-container .social-media-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  footer .direct-contact-container .social-media-list li {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    list-style: none;
+  }
+  
+  footer .direct-contact-container .social-media-list li:nth-child(n+2) {
+    margin-left: 35px;
+  }
+  
+  footer .direct-contact-container .social-media-list li a {
+    text-decoration: none;
+  }
+  
+  footer .direct-contact-container .social-media-list li a .far {
+    color: white;
+    font-size: 3em;
+  }
+  
+  footer .direct-contact-container .social-media-list li .fa-twitter {
+    font-size: 3em;
+    color: #1da1f2;
+  }
+  
+  footer .direct-contact-container .social-media-list li .fa-instagram {
+    color: #e1306c;
+    font-size: 3em;
+  }
+  
+  footer .copyright {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 17px;
+  }
+  
+  footer .sita {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
