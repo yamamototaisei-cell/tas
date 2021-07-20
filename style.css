@@ -102,14 +102,6 @@ header .overlay-menu ul {
   margin-top: 0;
 }
 
-header .overlay-menu ul.-action {
-  visibility: visible;
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-}
-
 header .overlay-menu ul li {
   list-style: none;
   font-size: 80px;
@@ -143,7 +135,7 @@ header .my_introduction .worker_type {
 }
 
 .profile_section {
-  background-image: url(abc/kaito.JPG);
+  background-image: url(abc/IMG_4962.JPG);
   background-size: cover;
   height: 2244px;
   margin-bottom: 40px;
